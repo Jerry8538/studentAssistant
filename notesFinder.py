@@ -1,7 +1,7 @@
 import shutil,os
 
-FILES = ['textbook']
-SOURCE = '/home/yk/OSSU-CS/studentAssistant/files/notesFinder'
+FILES = ['textbook','exemplar']
+SOURCE = '/home/yk/studentAssistant/files/notesFinder'
 OUTPUT = '/home/yk/Desktop/study'
 
 def moveFiles (subject,chapter):
