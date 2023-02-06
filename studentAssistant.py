@@ -26,7 +26,8 @@ def initialize(list):
 
 def add_hw(hw,date,imp):
     try:
-        if datetime.strptime(date,'%d/%m/%Y') and ['VV-IMP','V-IMP','IMP'].index(imp):
+        #what does this do??
+        #if datetime.strptime(date,'%d/%m/%Y') and ['VV-IMP','V-IMP','IMP'].index(imp):
             a = open(f"{HW}/homework", "a")
             a.write('~'.join((hw,date,imp,'\n')))
             a.close()
