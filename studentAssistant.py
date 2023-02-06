@@ -4,7 +4,7 @@
 from datetime import datetime,timedelta
 from IPython.display import clear_output
 
-HW = '/home/yk/OSSU-CS/studentAssistant/files/homework'
+HW = '/home/yk/studentAssistant/files/homework'
 
 def display(list):
     list.sort()
